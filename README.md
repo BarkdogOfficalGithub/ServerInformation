@@ -1,18 +1,11 @@
+<h1>Server Information</h1>
+This is a plugin custom made for **TotalFreedom**. There is so much more we still need to add to make this better!
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<h2>Commands</h2>
+*/ai* This gives information to the sender about the admin information
 
 
-Hi there! Welcome to Cloud9 IDE!
+*/website* This lets user know the website without them even having to ask!
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
 
-Happy coding!
-The Cloud9 IDE team
+*/owner* We get asked who the owner is a lot so here
