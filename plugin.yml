@@ -1,6 +1,7 @@
 name: TFU
 version: 1.0
 main: me.serverinfo.ServerInfo
+author: [dsate1]
 commands:
   website:
     aliases: [website, web, site]
