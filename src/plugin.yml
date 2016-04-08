@@ -1,11 +1,41 @@
-name: TFU
-version: 1.0
-main: me.serverinfo.ServerInfo
-author: [dsate1]
-commands:
-  website:
-    aliases: [website, web, site]
-  ai:
-  owner:
-  ruleinfo:
-  
+ name: ServerInfo
+ version: 2.0.0
+ description: ServerInformation at its best!
+ author: [dsate1]
+ authors: [DUFC_Liam] 
+ 
+ main: me.serverinfo.ServerInfo
+ database: false
+ depend: []
+ 
+ commands:
+   admininfo:
+     description: Admin informaion.
+     aliases: [ai]
+     permission: serverinfo.default
+     usage: /admininfo
+   owner:
+     description: Who is the owner?
+     aliases: [ai]
+     permission: serverinfo.default
+     usage: /owner
+   rulesinfo:
+     description: Server rules!
+     aliases: [ai]
+     permission: serverinfo.default
+     usage: /rulesinfo
+   website:
+     description: Server website!
+     aliases: [ai]
+     permission: serverinfo.default
+     usage: /website
+     
+ permissions:
+   serverinfo.*:
+     description: This will give you all permissions for this plugin.
+     children:
+       serverinfo.default: true
+     default: op
+   serverinfo.default:
+     description: This is the default permission
+     default: all
