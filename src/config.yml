@@ -1,5 +1,6 @@
-# Config file for Server Information
-web: Please put your website here 1
-admininfo: Please put your website here 2
-rulesinfo: To see a list of our server rules go here www.rules.com
-owner: [Server Owner Goes Here]
+#==== ServerInformation Configuration (V2.0.0) ====#
+web: www.example.com
+admininfo: Apply fot admin on our forums at: www.example.com
+rulesinfo: To see a list of our server rules go here www.example.com
+owner: dsate1
+#==== End of Conffiguration (V2.0.0) ====#
